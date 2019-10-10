@@ -7,6 +7,7 @@ namespace Engine
     void Init()
     {
      LOG::Init();
+     LOG::Set_printing_interval_ms(100);
      LOG::Add_logger("API");
      LOG::Add_logger("Window");
      LOG::Add_logger("Surface");

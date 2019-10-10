@@ -1,0 +1,152 @@
+[2019-08-14 12:25:19.186]  [API]         [info]     SDL opened
+[2019-08-14 12:25:19.192]  [API]         [info]     SDL_TTF opened
+[2019-08-14 12:25:20.159]  [API]         [info]     SDL_Mix opened
+[2019-08-14 12:25:24.446]  [API]         [info]     SDL_TTF closed
+[2019-08-14 12:25:24.451]  [API]         [info]     SDL_Mix closed
+[2019-08-14 12:25:24.811]  [API]         [info]     SDL closed
+[2019-08-14 12:25:56.024]  [API]         [info]     SDL opened
+[2019-08-14 12:25:56.029]  [API]         [info]     SDL_TTF opened
+[2019-08-14 12:25:56.804]  [API]         [info]     SDL_Mix opened
+[2019-08-14 12:25:56.831]  [Window]      [info]     Loaded icon: name=[res/icon.png]
+[2019-08-14 12:25:56.836]  [Window]      [info]     Window opened!
+[2019-08-14 12:25:56.870]  [Surface]     [info]     Surface factory opened
+[2019-08-14 12:25:56.877]  [Renderer]    [info]     Renderer opened
+[2019-08-14 12:25:56.889]  [RES MANAGER] [info]     New Resource_manager for Engi 4::Texture
+[2019-08-14 12:25:56.896]  [RES MANAGER] [info]     New Resource_manager for Engine::Font
+[2019-08-14 12:25:56.903]  [ECS]         [info]     Component Sand&4x::Positio(ÏÐ8¼Î has type_id=0
+[2019-08-14 12:25:56.909]  [ECS]         [info]     Component Sandbox::Movable has type_id=1
+[2019-08-14 12:25:56.915]  [ECS]         [info]     Added new System
+[2019-08-14 12:25:56.919]  [ECS]         [info]     Component Sandbox::Image has type_id=2
+[2019-08-14 12:25:56.925]  [ECS]         [info]     Added new System
+[2019-08-14 12:25:56.929]  [ECS]         [info]     Component Sandbox::Event_handler has type_id=3
+[2019-08-14 12:25:56.935]  [ECS]         [info]     Added new System
+[2019-08-14 12:25:56.940]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:25:56.948]  [Surface]     [info]     Loaded surface: res/img.png
+[2019-08-14 12:25:56.958]  [Surface]     [info]     Surface cleared
+[2019-08-14 12:25:56.963]  [Renderer]    [info]     Loaded texture: res/img.png
+[2019-08-14 12:25:56.968]  [ECS]         [info]     Added new Component_manager for Sandbox::Image with id=2
+[2019-08-14 12:25:56.974]  [ECS]         [info]     Added new Component_manager for Sandbox::Position with id=0
+[2019-08-14 12:25:56.981]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:25:56.987]  [Surface]     [info]     Loaded surface: res/sq.png
+[2019-08-14 12:25:56.994]  [Surface]     [info]     Surface cleared
+[2019-08-14 12:25:57.000]  [Renderer]    [info]     Loaded texture: res/sq.png
+[2019-08-14 12:25:57.005]  [ECS]         [info]     Added new Component_manager for Sandbox::Movable with id=1
+[2019-08-14 12:25:57.012]  [ECS]         [info]     Added new Component_manager for Sandbox::Event_handler with id=3
+[2019-08-14 12:25:57.020]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:25:57.024]  [Surface]     [info]     Loaded surface: res/sq2.png
+[2019-08-14 12:25:57.029]  [Surface]     [info]     Surface cleared
+[2019-08-14 12:25:57.034]  [Renderer]    [info]     Loaded texture: res/sq2.png
+[2019-08-14 12:25:57.038]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:25:57.042]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:25:57.047]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:25:57.051]  [Application] [info]     Changed state
+[2019-08-14 12:25:57.885]  [EV BUS]      [info]     Published event: SandÚ´x::Reset_e(ÏÐ8¼Î
+
+[2019-08-14 12:25:57.913]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:57.941]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:57.971]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.002]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.032]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.599]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.628]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.657]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.712]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.741]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.768]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.800]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.828]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.856]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.884]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.916]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.945]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:58.973]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.001]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.029]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.057]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.087]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.116]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.144]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.172]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.202]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.230]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.258]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.286]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.315]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.344]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.373]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.402]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.433]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.462]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.491]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.519]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:25:59.549]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:00.365]  [RES MANAGER] [info]     New Resource_manager for Engine::Texture
+[2019-08-14 12:26:00.373]  [RES MANAGER] [info]     New Resource_manager for Engine::Font
+[2019-08-14 12:26:00.379]  [ECS]         [info]     Added new System
+[2019-08-14 12:26:00.384]  [ECS]         [info]     Added new System
+[2019-08-14 12:26:00.389]  [ECS]         [info]     Added new System
+[2019-08-14 12:26:00.394]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:26:00.403]  [Surface]     [info]     Loaded surface: res/img.png
+[2019-08-14 12:26:00.416]  [Surface]     [info]     Surface cleared
+[2019-08-14 12:26:00.422]  [Renderer]    [info]     Loaded texture: res/img.png
+[2019-08-14 12:26:00.429]  [ECS]         [info]     Added new Component_manager for Sandbox::Image with id=2
+[2019-08-14 12:26:00.436]  [ECS]         [info]     Added new Component_manager for Sandbox::Position with id=0
+[2019-08-14 12:26:00.446]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:26:00.453]  [Surface]     [info]     Loaded surface: res/sq.png
+[2019-08-14 12:26:00.464]  [Surface]     [info]     Surface cleared
+[2019-08-14 12:26:00.470]  [Renderer]    [info]     Loaded texture: res/sq.png
+[2019-08-14 12:26:00.475]  [ECS]         [info]     Added new Component_manager for Sandbox::Movable with id=1
+[2019-08-14 12:26:00.483]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:26:00.488]  [Surface]     [info]     Loaded surface: res/sq2.png
+[2019-08-14 12:26:00.494]  [Surface]     [info]     Surface cleared
+[2019-08-14 12:26:00.499]  [Renderer]    [info]     Loaded texture: res/sq2.png
+[2019-08-14 12:26:00.505]  [ECS]         [info]     Added new Component_manager for Sandbox::Event_handler with id=3
+[2019-08-14 12:26:00.513]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:26:00.517]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:26:00.523]  [ECS]         [info]     Added new Entity
+[2019-08-14 12:26:00.528]  [Application] [info]     Pushed state
+[2019-08-14 12:26:01.406]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.414]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.420]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.428]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.455]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.464]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.470]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.478]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.505]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.513]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.519]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.525]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.552]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.561]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.568]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.574]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.602]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.609]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.615]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.622]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.650]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.657]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.663]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.670]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.696]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.704]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.709]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.717]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.745]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.754]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.761]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:01.767]  [EV BUS]      [info]     Published event: Sandbox::Reset_event
+[2019-08-14 12:26:02.290]  [Application] [info]     Quit
+[2019-08-14 12:26:02.316]  [Renderer]    [info]     Destroyed texture
+[2019-08-14 12:26:02.322]  [Renderer]    [info]     Destroyed texture
+[2019-08-14 12:26:02.328]  [Renderer]    [info]     Destroyed texture
+[2019-08-14 12:26:02.333]  [Renderer]    [info]     Destroyed texture
+[2019-08-14 12:26:02.338]  [Renderer]    [info]     Destroyed texture
+[2019-08-14 12:26:02.343]  [Renderer]    [info]     Destroyed texture
+[2019-08-14 12:26:02.360]  [Surface]     [info]     Surface factory closed
+[2019-08-14 12:26:02.366]  [Renderer]    [info]     Renderer closed
+[2019-08-14 12:26:02.372]  [Window]      [info]     Window closed
+[2019-08-14 12:26:02.377]  [API]         [info]     SDL_TTF closed
+[2019-08-14 12:26:02.382]  [API]         [info]     SDL_Mix closed
+[2019-08-14 12:26:02.683]  [API]         [info]     SDL closed

@@ -95,7 +95,7 @@
 	<unordered_map>
 	<string>
 
-1555441245 source:e:\programming\engine last\engine\src\init.cpp
+1570695245 source:e:\programming\engine last\engine\src\init.cpp
 	"../../ENGINE/include/Init.h"
 
 1555255556 e:\programming\engine last\engine\include\init.h
@@ -588,32 +588,39 @@
 1554316877 e:\programming\engine last\log\log.h
 	"include/Logger.h"
 
-1555253090 e:\programming\engine last\log\include\logger.h
+1570693383 e:\programming\engine last\log\include\logger.h
 	"Color.h"
 	"Specialized_logger.h"
+	"Log_query.h"
+	"CTimer.h"
 	<vector>
 	<unordered_map>
+	<queue>
+	<thread>
+	<mutex>
 
 1554298766 e:\programming\engine last\log\include\color.h
 	<windows.h>
 
-1555254594 e:\programming\engine last\log\include\specialized_logger.h
+1570688919 e:\programming\engine last\log\include\specialized_logger.h
 	"Color.h"
+	"Log_query.h"
 	<cstdio>
 	<string>
 	<cstdarg>
 	<ctime>
 	<sys/time.h>
 	<algorithm>
+	<queue>
+	<string>
 
 1554302201 source:e:\programming\engine last\log\src\color.cpp
 	"../include/Color.h"
 
-1555449751 source:e:\programming\engine last\log\src\logger.cpp
+1570693418 source:e:\programming\engine last\log\src\logger.cpp
 	"../include/Logger.h"
-	"../../UTIL/include/Utility.h"
 
-1555254586 source:e:\programming\engine last\log\src\specialized_logger.cpp
+1570694585 source:e:\programming\engine last\log\src\specialized_logger.cpp
 	"../include/Specialized_logger.h"
 
 1555449453 e:\programming\engine last\util\include\utility.h
@@ -640,4 +647,27 @@
 
 1555620901 source:e:\programming\engine last\engine\src\font.cpp
 	"../include/Font.h"
+
+1556016998 source:e:\programming\engine last\engine\src\multithreading.cpp
+	"../include/Multithreading.h"
+
+1556017063 e:\programming\engine last\engine\include\multithreading.h
+	"SDL_includes.h"
+	"Wrappers.h"
+	"../../LOG/LOG.h"
+
+1570693227 e:\programming\engine last\log\include\log_query.h
+	<cstdio>
+	<string>
+	<cstdarg>
+
+1570624643 e:\programming\engine last\log\include\ctimer.h
+	<ctime>
+	<chrono>
+
+1570624702 source:e:\programming\engine last\log\src\ctimer.cpp
+	"../include/CTimer.h"
+
+1570694563 source:e:\programming\engine last\log\src\log_query.cpp
+	"../include/Log_query.h"
 
