@@ -1,7 +1,7 @@
 #ifndef ECS_ENTITY_H
 #define ECS_ENTITY_H
 
-#include "../../UTIL/include/Utility.h"
+#include "../../UTIL/UTIL.h"
 #include "../../LOG/LOG.h"
 
 namespace ECS

@@ -2,17 +2,17 @@
 
 namespace UTIL
 {
-    bool Set_console_size(int Width, int Height)
+    bool Set_console_size(int width, int height)
     {
      _COORD coord;
-     coord.X = Width;
-     coord.Y = Height;
+     coord.X = width;
+     coord.Y = height;
 
      _SMALL_RECT Rect;
      Rect.Top = 0;
      Rect.Left = 0;
-     Rect.Bottom = Height - 1;
-     Rect.Right = Width - 1;
+     Rect.Bottom = height - 1;
+     Rect.Right = width - 1;
 
      HANDLE Handle = GetStdHandle(STD_OUTPUT_HANDLE);
      SetConsoleScreenBufferSize(Handle, coord);

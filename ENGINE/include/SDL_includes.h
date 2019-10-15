@@ -7,7 +7,7 @@
 #include "SDL2/SDL_image.h"
 
 #include "../../LOG/LOG.h"
-#include "../../UTIL/include/Utility.h"
+#include "../../UTIL/UTIL.h"
 #include "Timer.h"
 
 #include <cstdlib>

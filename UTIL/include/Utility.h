@@ -31,7 +31,7 @@ namespace UTIL
      return Demangle(typeid(T).name());
     }
 
-    bool Set_console_size(int Width, int Height);
+    bool Set_console_size(int width, int height);
 }
 
 template<typename T, typename... Args>

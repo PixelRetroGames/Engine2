@@ -9,7 +9,7 @@
 #include <typeindex>
 #include <typeinfo>
 
-#include "../../UTIL/include/Utility.h"
+#include "../../UTIL/UTIL.h"
 
 namespace EV_BUS
 {
@@ -58,6 +58,7 @@ namespace EV_BUS
                   return;
               }
           }
+      delete event;
      }
     };
 }

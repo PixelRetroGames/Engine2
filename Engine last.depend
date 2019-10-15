@@ -12,8 +12,8 @@
 	"Entity_map.h"
 	<vector>
 
-1555447363 e:\programming\engine last\ecs\include\entity.h
-	"../../UTIL/include/Utility.h"
+1571127180 e:\programming\engine last\ecs\include\entity.h
+	"../../UTIL/UTIL.h"
 	"../../LOG/LOG.h"
 
 1552760190 e:\programming\engine last\ecs\include\entity_map.h
@@ -26,11 +26,11 @@
 1552760162 e:\programming\engine last\ecs\include\component_mask.h
 	"Component.h"
 
-1555446689 source:e:\programming\engine last\ecs\src\engine.cpp
+1571127180 source:e:\programming\engine last\ecs\src\engine.cpp
 	"../include/Engine.h"
 	"../include/Entity_handle.h"
 	"../../LOG/LOG.h"
-	"../../UTIL/include/Utility.h"
+	"../../UTIL/UTIL.h"
 
 1555482975 e:\programming\engine last\ecs\include\engine.h
 	"Component.h"
@@ -68,7 +68,7 @@
 	"../include/System.h"
 	<algorithm>
 
-1555483657 source:e:\programming\engine last\main.cpp
+1570865549 source:e:\programming\engine last\main.cpp
 	"ENGINE/Engine.h"
 	"SANDBOX/include/Test_state.h"
 	<cstdio>
@@ -103,13 +103,13 @@
 	"Wrappers.h"
 	"../../LOG/LOG.h"
 
-1555484135 e:\programming\engine last\engine\include\sdl_includes.h
+1571127180 e:\programming\engine last\engine\include\sdl_includes.h
 	"SDL2/SDL.h"
 	"SDL2/SDL_ttf.h"
 	"SDL2/SDL_mixer.h"
 	"SDL2/SDL_image.h"
 	"../../LOG/LOG.h"
-	"../../UTIL/include/Utility.h"
+	"../../UTIL/UTIL.h"
 	"Timer.h"
 	<cstdlib>
 	<cstdio>
@@ -536,9 +536,9 @@
 	"Controller.h"
 	"Window_attributes.h"
 
-1553760714 e:\programming\engine last\engine\include\window_attributes.h
+1571127939 e:\programming\engine last\engine\include\window_attributes.h
 
-1555484873 source:e:\programming\engine last\engine\src\application.cpp
+1570865791 source:e:\programming\engine last\engine\src\application.cpp
 	"../../ENGINE/include/Application.h"
 	"../../ENGINE/include/Application_state.h"
 
@@ -555,7 +555,7 @@
 1554133093 e:\programming\engine last\sandbox\include\test_state.h
 	"../../ENGINE/Engine.h"
 
-1555484657 source:e:\programming\engine last\sandbox\src\test_state.cpp
+1570881948 source:e:\programming\engine last\sandbox\src\test_state.cpp
 	"../include/Test_state.h"
 	"../../ENGINE/include/Application.h"
 
@@ -573,14 +573,14 @@
 
 1553511414 e:\programming\engine last\ev_bus\include\event.h
 
-1555440472 e:\programming\engine last\ev_bus\include\event_bus.h
+1571127180 e:\programming\engine last\ev_bus\include\event_bus.h
 	"Function_handler.h"
 	<map>
 	<list>
 	<memory>
 	<typeindex>
 	<typeinfo>
-	"../../UTIL/include/Utility.h"
+	"../../UTIL/UTIL.h"
 
 1553511347 e:\programming\engine last\ev_bus\include\function_handler.h
 	"Event.h"
@@ -588,7 +588,7 @@
 1554316877 e:\programming\engine last\log\log.h
 	"include/Logger.h"
 
-1570693383 e:\programming\engine last\log\include\logger.h
+1570891854 e:\programming\engine last\log\include\logger.h
 	"Color.h"
 	"Specialized_logger.h"
 	"Log_query.h"
@@ -617,13 +617,13 @@
 1554302201 source:e:\programming\engine last\log\src\color.cpp
 	"../include/Color.h"
 
-1570693418 source:e:\programming\engine last\log\src\logger.cpp
+1570891854 source:e:\programming\engine last\log\src\logger.cpp
 	"../include/Logger.h"
 
 1570694585 source:e:\programming\engine last\log\src\specialized_logger.cpp
 	"../include/Specialized_logger.h"
 
-1555449453 e:\programming\engine last\util\include\utility.h
+1571127741 e:\programming\engine last\util\include\utility.h
 	<typeindex>
 	<typeinfo>
 	<cxxabi.h>
@@ -631,7 +631,7 @@
 	<string>
 	<windows.h>
 
-1555449467 source:e:\programming\engine last\util\src\utility.cpp
+1571127788 source:e:\programming\engine last\util\src\utility.cpp
 	"../include/Utility.h"
 
 1555483964 e:\programming\engine last\engine\include\timer.h
@@ -670,4 +670,7 @@
 
 1570694563 source:e:\programming\engine last\log\src\log_query.cpp
 	"../include/Log_query.h"
+
+1571127138 e:\programming\engine last\util\util.h
+	"include/Utility.h"
 

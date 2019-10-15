@@ -1,7 +1,7 @@
 #include "../include/Engine.h"
 #include "../include/Entity_handle.h"
 #include "../../LOG/LOG.h"
-#include "../../UTIL/include/Utility.h"
+#include "../../UTIL/UTIL.h"
 
 namespace ECS
 {

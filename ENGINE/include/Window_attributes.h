@@ -1,5 +1,6 @@
 #ifndef WINDOW_ATTRIBUTES_H
 #define WINDOW_ATTRIBUTES_H
+
 namespace Engine
 {
     enum Window_position
