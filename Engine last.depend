@@ -466,18 +466,9 @@
 	"SDL_includes.h"
 	"../../LOG/LOG.h"
 
-1553760080 e:\programming\engine last\engine\engine.h
-	"include/Wrappers.h"
-	"include/Init.h"
-	"include/Surface.h"
-	"include/Surface_factory.h"
-	"include/Texture.h"
-	"include/Render.h"
-	"include/Events.h"
-	"include/Controller.h"
-	"include/Window.h"
-	"include/Application_state.h"
-	"include/Application.h"
+1571143350 e:\programming\engine last\engine\engine.h
+	"CORE/CORE.h"
+	"APP/APP.h"
 
 1555255054 source:e:\programming\engine last\engine\src\surface.cpp
 	"../../ENGINE/include/Surface.h"
@@ -552,8 +543,8 @@
 	"../../RES_MANAGER/RES_MANAGER.h"
 	"../../EV_BUS/EV_BUS.h"
 
-1554133093 e:\programming\engine last\sandbox\include\test_state.h
-	"../../ENGINE/Engine.h"
+1571143383 e:\programming\engine last\sandbox\include\test_state.h
+	"../../ENGINE/ENGINE.h"
 
 1570881948 source:e:\programming\engine last\sandbox\src\test_state.cpp
 	"../include/Test_state.h"
@@ -673,4 +664,138 @@
 
 1571127138 e:\programming\engine last\util\util.h
 	"include/Utility.h"
+
+1571142129 source:e:\programming\engine last\engine\app\src\application.cpp
+	"../../APP/include/Application.h"
+	"../../APP/include/Application_state.h"
+
+1571143039 e:\programming\engine last\engine\app\include\application.h
+	"../../CORE/CORE.h"
+
+1571142556 e:\programming\engine last\engine\core\core.h
+	"include/SDL_includes.h"
+	"include/Init.h"
+	"include/Wrappers.h"
+	"include/Window_attributes.h"
+	"include/Window.h"
+	"include/Render.h"
+	"include/Events.h"
+	"include/Scancodes.h"
+	"include/Timer.h"
+
+1571143039 e:\programming\engine last\engine\core\include\sdl_includes.h
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_mixer.h"
+	"SDL2/SDL_image.h"
+
+1555483964 e:\programming\engine last\engine\core\include\timer.h
+
+1571143039 e:\programming\engine last\engine\core\include\init.h
+	"Utilities.h"
+
+1571143098 e:\programming\engine last\engine\core\include\wrappers.h
+	"Utilities.h"
+	<cstdio>
+
+1571127939 e:\programming\engine last\engine\core\include\window_attributes.h
+
+1571142888 e:\programming\engine last\engine\core\include\window.h
+	"Utilities.h"
+	"Surface.h"
+	"Render.h"
+	"Events.h"
+	"Controller.h"
+	"Window_attributes.h"
+
+1571143039 e:\programming\engine last\engine\core\include\surface.h
+	"Utilities.h"
+
+1555568162 e:\programming\engine last\engine\core\include\render.h
+	"Texture.h"
+	"Font.h"
+	"Surface_factory.h"
+
+1571143039 e:\programming\engine last\engine\core\include\texture.h
+	"Utilities.h"
+
+1571142888 e:\programming\engine last\engine\core\include\font.h
+	"Utilities.h"
+	<string>
+
+1553760674 e:\programming\engine last\engine\core\include\surface_factory.h
+	"Surface.h"
+	"Wrappers.h"
+
+1553758697 e:\programming\engine last\engine\core\include\events.h
+	"Wrappers.h"
+	"Scancodes.h"
+
+1553757126 e:\programming\engine last\engine\core\include\scancodes.h
+
+1571142684 e:\programming\engine last\engine\core\include\controller.h
+	"Utilities.h"
+
+1571143138 e:\programming\engine last\engine\core\include\utilities.h
+	<cstdlib>
+	<cstdio>
+	<string>
+	<vector>
+	<map>
+	<stack>
+	<algorithm>
+	<cstring>
+	"SDL_includes.h"
+	"Wrappers.h"
+	"../../../LOG/LOG.h"
+	"../../../UTIL/UTIL.h"
+
+1571142342 e:\programming\engine last\engine\app\include\application_state.h
+	"../../../ECS/ECS.h"
+	"../../../RES_MANAGER/RES_MANAGER.h"
+	"../../../EV_BUS/EV_BUS.h"
+
+1555257314 source:e:\programming\engine last\engine\core\src\controller.cpp
+	"../include/Controller.h"
+
+1553757220 source:e:\programming\engine last\engine\core\src\events.cpp
+	"../include/Events.h"
+
+1555620901 source:e:\programming\engine last\engine\core\src\font.cpp
+	"../include/Font.h"
+
+1571142707 source:e:\programming\engine last\engine\core\src\init.cpp
+	"../../CORE/include/Init.h"
+
+1556016998 source:e:\programming\engine last\engine\core\src\multithreading.cpp
+	"../include/Multithreading.h"
+
+1571142746 e:\programming\engine last\engine\core\include\multithreading.h
+	"Utilities.h"
+
+1571142746 source:e:\programming\engine last\engine\core\src\render.cpp
+	"../../CORE/include/Render.h"
+
+1571142791 source:e:\programming\engine last\engine\core\src\surface.cpp
+	"../../CORE/include/Surface.h"
+
+1571142798 source:e:\programming\engine last\engine\core\src\surface_factory.cpp
+	"../../CORE/include/Surface_factory.h"
+
+1571142802 source:e:\programming\engine last\engine\core\src\texture.cpp
+	"../../CORE/include/Texture.h"
+
+1555484104 source:e:\programming\engine last\engine\core\src\timer.cpp
+	"../include/Timer.h"
+	"SDL/SDL.h"
+
+1571142806 source:e:\programming\engine last\engine\core\src\window.cpp
+	"../../CORE/include/Window.h"
+
+1571142810 source:e:\programming\engine last\engine\core\src\wrappers.cpp
+	"../../CORE/include/Wrappers.h"
+
+1571143322 e:\programming\engine last\engine\app\app.h
+	"include/Application.h"
+	"include/Application_state.h"
 

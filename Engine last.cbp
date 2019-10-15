@@ -107,6 +107,7 @@
 		<Unit filename="RES_MANAGER/src/Resource_type_counter.cpp" />
 		<Unit filename="SANDBOX/include/Test_state.h" />
 		<Unit filename="SANDBOX/src/Test_state.cpp" />
+		<Unit filename="UTIL/UTIL.h" />
 		<Unit filename="UTIL/include/Utility.h" />
 		<Unit filename="UTIL/src/Utility.cpp" />
 		<Unit filename="main.cpp" />

@@ -1,7 +1,7 @@
 #ifndef TEST_STATE_H
 #define TEST_STATE_H
 
-#include "../../ENGINE/Engine.h"
+#include "../../ENGINE/ENGINE.h"
 
 
 namespace Sandbox
