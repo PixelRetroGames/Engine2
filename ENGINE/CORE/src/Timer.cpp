@@ -1,5 +1,4 @@
 #include "../include/Timer.h"
-#include "SDL/SDL.h"
 
 namespace Engine
 {

@@ -13,7 +13,7 @@ namespace UTIL
     static const char *Demangle(const char *name)
     {
      char buffer[1024];
-     unsigned int size=1024;
+     size_t size=1024;
      int status;
      char *ret=abi::__cxa_demangle(name,buffer,&size,&status);
      return ret;

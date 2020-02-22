@@ -613,7 +613,7 @@
 1570690985 source:e:\programming\engine last\log\src\specialized_logger.cpp
 	"../include/Specialized_logger.h"
 
-1571124141 e:\programming\engine last\util\include\utility.h
+1582399636 e:\programming\engine last\util\include\utility.h
 	<typeindex>
 	<typeinfo>
 	<cxxabi.h>
@@ -688,7 +688,8 @@
 	"SDL2/SDL_mixer.h"
 	"SDL2/SDL_image.h"
 
-1555480364 e:\programming\engine last\engine\core\include\timer.h
+1582399651 e:\programming\engine last\engine\core\include\timer.h
+	"../include/SDL_includes.h"
 
 1571139439 e:\programming\engine last\engine\core\include\init.h
 	"Utilities.h"
