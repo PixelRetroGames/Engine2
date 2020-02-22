@@ -33,7 +33,7 @@ namespace Engine
      public:
      int r=0,g=0,b=0,a=0;
 
-     Color(int _r,int _g,int _b,int _a);
+     Color(int _r,int _g,int _b,int _a = 255);
      SDL_Color Get_SDL_Color();
     };
 

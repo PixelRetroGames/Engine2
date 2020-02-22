@@ -10,7 +10,7 @@ namespace Sandbox
     {
      private:
      int countdown=100;
-     ECS::Entity_handle background,player,enemies[4];
+     ECS::Entity_handle background,player,enemies[4],text;
      std::unique_ptr<ECS::System> movement_system,rendering_system,player_movement_system;
 
      public:

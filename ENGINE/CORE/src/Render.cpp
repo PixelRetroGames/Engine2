@@ -52,7 +52,7 @@ namespace Engine
      SDL_Texture *image_texture=SDL_CreateTextureFromSurface(renderer,image_surface->Get_image());
      if(image_texture==NULL)
         {
-         LOG_WARNING("Renderer","Could not load texture: %s",Get_error());
+         LOG_ERROR("Renderer","Could not load texture: %s",Get_error());
          return NULL_texture;
         }
      SDL_UnlockMutex(mutex);
@@ -81,7 +81,7 @@ namespace Engine
      SDL_UnlockMutex(mutex);
      if(_texture->Get_image()==NULL)
         {
-         LOG_WARNING("Renderer","Could not create transparent texture: %s",Get_error());
+         LOG_ERROR("Renderer","Could not create transparent texture: %s",Get_error());
          return NULL_texture;
         }
 
@@ -91,6 +91,12 @@ namespace Engine
 
     Texture *Renderer::Create_TTF_texture(Font *font,std::string text,Color color)
     {
+     if(font==NULL || font->font==NULL)
+        {
+         LOG_ERROR("Renderer","Could not create TTF texture: font is null");
+         return NULL_texture;
+        }
+
      SDL_Surface *image_surface=TTF_RenderText_Blended(font->font,text.c_str(),color.Get_SDL_Color());
      if(image_surface==NULL)
         return NULL;
@@ -98,7 +104,7 @@ namespace Engine
      SDL_Texture *image_texture=SDL_CreateTextureFromSurface(renderer,image_surface);
      if(image_texture==NULL)
         {
-         LOG_WARNING("Renderer","Could not create TTF texture: %s",Get_error());
+         LOG_ERROR("Renderer","Could not create TTF texture: %s",Get_error());
          return NULL_texture;
         }
      SDL_UnlockMutex(mutex);
@@ -139,7 +145,7 @@ namespace Engine
     {
      if(src==NULL || src->Get_image()==NULL)
         {
-         LOG_WARNING("Renderer","Could not draw NULL texture");
+         LOG_ERROR("Renderer","Could not draw NULL texture");
          return;
         }
 
@@ -154,7 +160,7 @@ namespace Engine
     {
      if(source==NULL || source->Get_image()==NULL)
         {
-         LOG_WARNING("Renderer","Could not draw NULL texture");
+         LOG_ERROR("Renderer","Could not draw NULL texture");
          return;
         }
 
@@ -173,7 +179,7 @@ namespace Engine
     {
      if(source==NULL || source->Get_image()==NULL)
         {
-         LOG_WARNING("Renderer","Could not draw NULL texture");
+         LOG_ERROR("Renderer","Could not draw NULL texture");
          return;
         }
      SDL_LockMutex(mutex);

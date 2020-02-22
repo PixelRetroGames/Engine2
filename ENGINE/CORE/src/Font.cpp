@@ -6,23 +6,23 @@ namespace Engine
     {
      if(filename.empty())
         {
-         LOG_ERROR("Font","Could not load font, filename is null");
+         LOG_ERROR("Renderer","Could not load font, filename is null");
          return;
         }
      font=TTF_OpenFont(filename.c_str(),ptr_size);
      if(font==NULL)
         {
-         LOG_ERROR("Font","Could not load font: %s",Get_error());
+         LOG_ERROR("Renderer","Could not load font: %s",Get_error());
          return;
         }
-     LOG_INFO("Font","Loaded font: name=[%s]",filename.c_str());
+     LOG_INFO("Renderer","Loaded font: name=[%s]",filename.c_str());
     }
 
     void Font::Clear()
     {
      TTF_CloseFont(font);
      font=NULL;
-     LOG_INFO("Font","Closed font");
+     LOG_INFO("Renderer","Closed font");
     }
 
     Font *Load_font(std::string filename)
@@ -33,15 +33,17 @@ namespace Engine
         q=filename.find(".TTF");
      if(q==std::string::npos)
         {
-         LOG_ERROR("Font","Wrong format (.ttf) is missing");
+         LOG_ERROR("Renderer","Wrong format (.ttf) is missing");
          return nullptr;
         }
-     Font *font;
-     font->Load(filename.substr(0,q+4),std::stoi(filename.substr(q+4,filename.length())));
+     Font *font = new Font;
+     font->Load(filename, 80);
+     return font;
     }
 
     void Clear_font(Font *font)
     {
      font->Clear();
+     delete font;
     }
 }

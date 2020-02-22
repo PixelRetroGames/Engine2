@@ -87,6 +87,12 @@ namespace Sandbox
      background.Add_component(Image(resource_manager.Get<Engine::Texture>("res/img.png")));
      background.Add_component(Position(45,33));
 
+     text = engine->Add_entity();
+     Engine::Color text_color(255,0,0,255);
+     text.Add_component(Image(Engine::RENDERER->Create_TTF_texture(resource_manager.Get<Engine::Font>("res/font.ttf"), "TEST", text_color)));
+     text.Add_component(Position(125,40));
+     text.Add_component(Movable());
+
      player=engine->Add_entity();
      player.Add_component(Image(resource_manager.Get<Engine::Texture>("res/sq.png")));
      player.Add_component(Position(0,0));

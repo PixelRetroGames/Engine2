@@ -1,38 +1,38 @@
 # depslib dependency file v1.0
-1555448485 source:e:\programming\engine last\ecs\src\component.cpp
+1555444885 source:e:\programming\engine last\ecs\src\component.cpp
 	"../include/Component.h"
 
-1555452289 e:\programming\engine last\ecs\include\component.h
+1572610597 e:\programming\engine last\ecs\include\component.h
 	<vector>
 	"Component_manager.h"
 	"Entity.h"
 
-1553104950 e:\programming\engine last\ecs\include\component_manager.h
+1553101350 e:\programming\engine last\ecs\include\component_manager.h
 	"Entity.h"
 	"Entity_map.h"
 	<vector>
 
-1571127180 e:\programming\engine last\ecs\include\entity.h
+1571123580 e:\programming\engine last\ecs\include\entity.h
 	"../../UTIL/UTIL.h"
 	"../../LOG/LOG.h"
 
-1552760190 e:\programming\engine last\ecs\include\entity_map.h
+1552756590 e:\programming\engine last\ecs\include\entity_map.h
 	"Entity.h"
 	<map>
 
-1553540937 source:e:\programming\engine last\ecs\src\component_mask.cpp
+1553537337 source:e:\programming\engine last\ecs\src\component_mask.cpp
 	"../include/Component_mask.h"
 
-1552760162 e:\programming\engine last\ecs\include\component_mask.h
+1552756562 e:\programming\engine last\ecs\include\component_mask.h
 	"Component.h"
 
-1571127180 source:e:\programming\engine last\ecs\src\engine.cpp
+1571123580 source:e:\programming\engine last\ecs\src\engine.cpp
 	"../include/Engine.h"
 	"../include/Entity_handle.h"
 	"../../LOG/LOG.h"
 	"../../UTIL/UTIL.h"
 
-1555482975 e:\programming\engine last\ecs\include\engine.h
+1555479375 e:\programming\engine last\ecs\include\engine.h
 	"Component.h"
 	"Component_handle.h"
 	"Component_manager.h"
@@ -41,39 +41,39 @@
 	"Entity_manager.h"
 	"System.h"
 
-1553187615 e:\programming\engine last\ecs\include\component_handle.h
+1553184015 e:\programming\engine last\ecs\include\component_handle.h
 	"Component_manager.h"
 	"Entity.h"
 
-1553184262 e:\programming\engine last\ecs\include\entity_manager.h
+1553180662 e:\programming\engine last\ecs\include\entity_manager.h
 	"Entity.h"
 	<set>
 
-1553787341 e:\programming\engine last\ecs\include\system.h
+1553783741 e:\programming\engine last\ecs\include\system.h
 	"Component_mask.h"
 	"Entity.h"
 
-1553543626 e:\programming\engine last\ecs\include\entity_handle.h
+1572610657 e:\programming\engine last\ecs\include\entity_handle.h
 	"Component_handle.h"
 	"Entity.h"
 	"Engine.h"
 
-1553186629 source:e:\programming\engine last\ecs\src\entity_manager.cpp
+1553183029 source:e:\programming\engine last\ecs\src\entity_manager.cpp
 	"../include/Entity_manager.h"
 
-1552581418 source:e:\programming\engine last\ecs\src\entity_map.cpp
+1552577818 source:e:\programming\engine last\ecs\src\entity_map.cpp
 	"../include/Entity_map.h"
 
-1553787367 source:e:\programming\engine last\ecs\src\system.cpp
+1553783767 source:e:\programming\engine last\ecs\src\system.cpp
 	"../include/System.h"
 	<algorithm>
 
-1570865549 source:e:\programming\engine last\main.cpp
+1570861949 source:e:\programming\engine last\main.cpp
 	"ENGINE/Engine.h"
 	"SANDBOX/include/Test_state.h"
 	<cstdio>
 
-1553533741 e:\programming\engine last\ecs\ecs.h
+1553530141 e:\programming\engine last\ecs\ecs.h
 	"include/Component.h"
 	"include/Component_handle.h"
 	"include/Component_manager.h"
@@ -85,12 +85,12 @@
 1553673814 e:\programming\engine last\res_manager\resource_manager.h
 	"include/Centralized_resource_manager.h"
 
-1555440839 e:\programming\engine last\res_manager\include\centralized_resource_manager.h
+1572352141 e:\programming\engine last\res_manager\include\centralized_resource_manager.h
 	"Resource_manager.h"
 	<memory>
-	<vector>
+	<map>
 
-1555656156 e:\programming\engine last\res_manager\include\resource_manager.h
+1572350205 e:\programming\engine last\res_manager\include\resource_manager.h
 	"Resource_type_counter.h"
 	<unordered_map>
 	<string>
@@ -120,7 +120,7 @@
 	<algorithm>
 	<cstring>
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -151,12 +151,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_main.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_stdinc.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -185,34 +185,34 @@
 	<stdlib.h>
 	"close_code.h"
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_config.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_platform.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\begin_code.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\begin_code.h
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\close_code.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\close_code.h
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_assert.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_atomic.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	<mbarrier.h>
 	"close_code.h"
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_audio.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -222,24 +222,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_error.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_endian.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_mutex.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_thread.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -248,18 +248,18 @@
 	<process.h>
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_rwops.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_clipboard.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_cpuinfo.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -271,7 +271,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_events.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -285,7 +285,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_video.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -293,12 +293,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_pixels.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_rect.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -306,7 +306,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_surface.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -315,11 +315,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231490 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_blendmode.h
+1540227890 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_keyboard.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -327,27 +327,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_keycode.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_scancode.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_mouse.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_joystick.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_gamecontroller.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -355,11 +355,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_quit.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_gesture.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -367,60 +367,60 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_touch.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_filesystem.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_haptic.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_hints.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_loadso.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_log.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_messagebox.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_power.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_render.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_system.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -428,23 +428,23 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_timer.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_version.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_ttf.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_mixer.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_mixer.h
 	"SDL_stdinc.h"
 	"SDL_rwops.h"
 	"SDL_audio.h"
@@ -453,7 +453,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1540231491 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_image.h
+1540227891 e:\programming\engine last\redist\sdl2\include\sdl2\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
@@ -466,7 +466,7 @@
 	"SDL_includes.h"
 	"../../LOG/LOG.h"
 
-1571143350 e:\programming\engine last\engine\engine.h
+1571139750 e:\programming\engine last\engine\engine.h
 	"CORE/CORE.h"
 	"APP/APP.h"
 
@@ -543,28 +543,27 @@
 	"../../RES_MANAGER/RES_MANAGER.h"
 	"../../EV_BUS/EV_BUS.h"
 
-1571143383 e:\programming\engine last\sandbox\include\test_state.h
+1582282209 e:\programming\engine last\sandbox\include\test_state.h
 	"../../ENGINE/ENGINE.h"
 
-1570881948 source:e:\programming\engine last\sandbox\src\test_state.cpp
+1582284552 source:e:\programming\engine last\sandbox\src\test_state.cpp
 	"../include/Test_state.h"
-	"../../ENGINE/include/Application.h"
 
-1553677414 e:\programming\engine last\res_manager\res_manager.h
+1553673814 e:\programming\engine last\res_manager\res_manager.h
 	"include/Centralized_resource_manager.h"
 
-1553793752 e:\programming\engine last\res_manager\include\resource_type_counter.h
+1553790152 e:\programming\engine last\res_manager\include\resource_type_counter.h
 
-1553793800 source:e:\programming\engine last\res_manager\src\resource_type_counter.cpp
+1553790200 source:e:\programming\engine last\res_manager\src\resource_type_counter.cpp
 	"../include/Resource_type_counter.h"
 
-1553794688 e:\programming\engine last\ev_bus\ev_bus.h
+1553791088 e:\programming\engine last\ev_bus\ev_bus.h
 	"include/Event.h"
 	"include/Event_bus.h"
 
-1553511414 e:\programming\engine last\ev_bus\include\event.h
+1553507814 e:\programming\engine last\ev_bus\include\event.h
 
-1571127180 e:\programming\engine last\ev_bus\include\event_bus.h
+1571123580 e:\programming\engine last\ev_bus\include\event_bus.h
 	"Function_handler.h"
 	<map>
 	<list>
@@ -573,13 +572,13 @@
 	<typeinfo>
 	"../../UTIL/UTIL.h"
 
-1553511347 e:\programming\engine last\ev_bus\include\function_handler.h
+1553507747 e:\programming\engine last\ev_bus\include\function_handler.h
 	"Event.h"
 
-1554316877 e:\programming\engine last\log\log.h
+1554313277 e:\programming\engine last\log\log.h
 	"include/Logger.h"
 
-1570891854 e:\programming\engine last\log\include\logger.h
+1570888254 e:\programming\engine last\log\include\logger.h
 	"Color.h"
 	"Specialized_logger.h"
 	"Log_query.h"
@@ -590,10 +589,10 @@
 	<thread>
 	<mutex>
 
-1554298766 e:\programming\engine last\log\include\color.h
+1554295166 e:\programming\engine last\log\include\color.h
 	<windows.h>
 
-1570688919 e:\programming\engine last\log\include\specialized_logger.h
+1570685319 e:\programming\engine last\log\include\specialized_logger.h
 	"Color.h"
 	"Log_query.h"
 	<cstdio>
@@ -605,16 +604,16 @@
 	<queue>
 	<string>
 
-1554302201 source:e:\programming\engine last\log\src\color.cpp
+1554298601 source:e:\programming\engine last\log\src\color.cpp
 	"../include/Color.h"
 
-1570891854 source:e:\programming\engine last\log\src\logger.cpp
+1570888254 source:e:\programming\engine last\log\src\logger.cpp
 	"../include/Logger.h"
 
-1570694585 source:e:\programming\engine last\log\src\specialized_logger.cpp
+1570690985 source:e:\programming\engine last\log\src\specialized_logger.cpp
 	"../include/Specialized_logger.h"
 
-1571127741 e:\programming\engine last\util\include\utility.h
+1571124141 e:\programming\engine last\util\include\utility.h
 	<typeindex>
 	<typeinfo>
 	<cxxabi.h>
@@ -622,7 +621,7 @@
 	<string>
 	<windows.h>
 
-1571127788 source:e:\programming\engine last\util\src\utility.cpp
+1571124188 source:e:\programming\engine last\util\src\utility.cpp
 	"../include/Utility.h"
 
 1555483964 e:\programming\engine last\engine\include\timer.h
@@ -647,32 +646,32 @@
 	"Wrappers.h"
 	"../../LOG/LOG.h"
 
-1570693227 e:\programming\engine last\log\include\log_query.h
+1570689627 e:\programming\engine last\log\include\log_query.h
 	<cstdio>
 	<string>
 	<cstdarg>
 
-1570624643 e:\programming\engine last\log\include\ctimer.h
+1570621043 e:\programming\engine last\log\include\ctimer.h
 	<ctime>
 	<chrono>
 
-1570624702 source:e:\programming\engine last\log\src\ctimer.cpp
+1570621102 source:e:\programming\engine last\log\src\ctimer.cpp
 	"../include/CTimer.h"
 
-1570694563 source:e:\programming\engine last\log\src\log_query.cpp
+1570690963 source:e:\programming\engine last\log\src\log_query.cpp
 	"../include/Log_query.h"
 
-1571127138 e:\programming\engine last\util\util.h
+1571123538 e:\programming\engine last\util\util.h
 	"include/Utility.h"
 
-1571142129 source:e:\programming\engine last\engine\app\src\application.cpp
+1571725872 source:e:\programming\engine last\engine\app\src\application.cpp
 	"../../APP/include/Application.h"
 	"../../APP/include/Application_state.h"
 
-1571143039 e:\programming\engine last\engine\app\include\application.h
+1571139439 e:\programming\engine last\engine\app\include\application.h
 	"../../CORE/CORE.h"
 
-1571142556 e:\programming\engine last\engine\core\core.h
+1571138956 e:\programming\engine last\engine\core\core.h
 	"include/SDL_includes.h"
 	"include/Init.h"
 	"include/Wrappers.h"
@@ -683,24 +682,24 @@
 	"include/Scancodes.h"
 	"include/Timer.h"
 
-1571143039 e:\programming\engine last\engine\core\include\sdl_includes.h
+1571139439 e:\programming\engine last\engine\core\include\sdl_includes.h
 	"SDL2/SDL.h"
 	"SDL2/SDL_ttf.h"
 	"SDL2/SDL_mixer.h"
 	"SDL2/SDL_image.h"
 
-1555483964 e:\programming\engine last\engine\core\include\timer.h
+1555480364 e:\programming\engine last\engine\core\include\timer.h
 
-1571143039 e:\programming\engine last\engine\core\include\init.h
+1571139439 e:\programming\engine last\engine\core\include\init.h
 	"Utilities.h"
 
-1571143098 e:\programming\engine last\engine\core\include\wrappers.h
+1582282751 e:\programming\engine last\engine\core\include\wrappers.h
 	"Utilities.h"
 	<cstdio>
 
-1571127939 e:\programming\engine last\engine\core\include\window_attributes.h
+1571124339 e:\programming\engine last\engine\core\include\window_attributes.h
 
-1571142888 e:\programming\engine last\engine\core\include\window.h
+1571139288 e:\programming\engine last\engine\core\include\window.h
 	"Utilities.h"
 	"Surface.h"
 	"Render.h"
@@ -708,35 +707,35 @@
 	"Controller.h"
 	"Window_attributes.h"
 
-1571143039 e:\programming\engine last\engine\core\include\surface.h
+1571139439 e:\programming\engine last\engine\core\include\surface.h
 	"Utilities.h"
 
-1555568162 e:\programming\engine last\engine\core\include\render.h
+1555564562 e:\programming\engine last\engine\core\include\render.h
 	"Texture.h"
 	"Font.h"
 	"Surface_factory.h"
 
-1571143039 e:\programming\engine last\engine\core\include\texture.h
+1571139439 e:\programming\engine last\engine\core\include\texture.h
 	"Utilities.h"
 
-1571142888 e:\programming\engine last\engine\core\include\font.h
+1571139288 e:\programming\engine last\engine\core\include\font.h
 	"Utilities.h"
 	<string>
 
-1553760674 e:\programming\engine last\engine\core\include\surface_factory.h
+1553757074 e:\programming\engine last\engine\core\include\surface_factory.h
 	"Surface.h"
 	"Wrappers.h"
 
-1553758697 e:\programming\engine last\engine\core\include\events.h
+1553755097 e:\programming\engine last\engine\core\include\events.h
 	"Wrappers.h"
 	"Scancodes.h"
 
-1553757126 e:\programming\engine last\engine\core\include\scancodes.h
+1553753526 e:\programming\engine last\engine\core\include\scancodes.h
 
-1571142684 e:\programming\engine last\engine\core\include\controller.h
+1571139084 e:\programming\engine last\engine\core\include\controller.h
 	"Utilities.h"
 
-1571143138 e:\programming\engine last\engine\core\include\utilities.h
+1571139538 e:\programming\engine last\engine\core\include\utilities.h
 	<cstdlib>
 	<cstdio>
 	<string>
@@ -750,52 +749,52 @@
 	"../../../LOG/LOG.h"
 	"../../../UTIL/UTIL.h"
 
-1571142342 e:\programming\engine last\engine\app\include\application_state.h
+1571726158 e:\programming\engine last\engine\app\include\application_state.h
 	"../../../ECS/ECS.h"
 	"../../../RES_MANAGER/RES_MANAGER.h"
 	"../../../EV_BUS/EV_BUS.h"
 
-1555257314 source:e:\programming\engine last\engine\core\src\controller.cpp
+1555253714 source:e:\programming\engine last\engine\core\src\controller.cpp
 	"../include/Controller.h"
 
-1553757220 source:e:\programming\engine last\engine\core\src\events.cpp
+1553753620 source:e:\programming\engine last\engine\core\src\events.cpp
 	"../include/Events.h"
 
-1555620901 source:e:\programming\engine last\engine\core\src\font.cpp
+1582284372 source:e:\programming\engine last\engine\core\src\font.cpp
 	"../include/Font.h"
 
-1571142707 source:e:\programming\engine last\engine\core\src\init.cpp
+1571139107 source:e:\programming\engine last\engine\core\src\init.cpp
 	"../../CORE/include/Init.h"
 
-1556016998 source:e:\programming\engine last\engine\core\src\multithreading.cpp
+1556013398 source:e:\programming\engine last\engine\core\src\multithreading.cpp
 	"../include/Multithreading.h"
 
-1571142746 e:\programming\engine last\engine\core\include\multithreading.h
+1571139146 e:\programming\engine last\engine\core\include\multithreading.h
 	"Utilities.h"
 
-1571142746 source:e:\programming\engine last\engine\core\src\render.cpp
+1582283911 source:e:\programming\engine last\engine\core\src\render.cpp
 	"../../CORE/include/Render.h"
 
-1571142791 source:e:\programming\engine last\engine\core\src\surface.cpp
+1571139191 source:e:\programming\engine last\engine\core\src\surface.cpp
 	"../../CORE/include/Surface.h"
 
-1571142798 source:e:\programming\engine last\engine\core\src\surface_factory.cpp
+1571139198 source:e:\programming\engine last\engine\core\src\surface_factory.cpp
 	"../../CORE/include/Surface_factory.h"
 
-1571142802 source:e:\programming\engine last\engine\core\src\texture.cpp
+1571139202 source:e:\programming\engine last\engine\core\src\texture.cpp
 	"../../CORE/include/Texture.h"
 
-1555484104 source:e:\programming\engine last\engine\core\src\timer.cpp
+1555480504 source:e:\programming\engine last\engine\core\src\timer.cpp
 	"../include/Timer.h"
 	"SDL/SDL.h"
 
-1571142806 source:e:\programming\engine last\engine\core\src\window.cpp
+1571139206 source:e:\programming\engine last\engine\core\src\window.cpp
 	"../../CORE/include/Window.h"
 
-1571142810 source:e:\programming\engine last\engine\core\src\wrappers.cpp
+1571139210 source:e:\programming\engine last\engine\core\src\wrappers.cpp
 	"../../CORE/include/Wrappers.h"
 
-1571143322 e:\programming\engine last\engine\app\app.h
+1571139722 e:\programming\engine last\engine\app\app.h
 	"include/Application.h"
 	"include/Application_state.h"
 

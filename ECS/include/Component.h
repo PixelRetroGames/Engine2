@@ -35,6 +35,7 @@ namespace ECS
           LOG_INFO("ECS","Component %s has type_id=%d",UTIL::Get_type<Component_type>(),type_id);
          }
      }
+
      static inline int Get_type_id()
      {
       if(type_id==-1)
@@ -44,7 +45,7 @@ namespace ECS
     };
 
     template<typename Component_type>
-    int Component<Component_type>::type_id = -1;
+    int Component<Component_type>::type_id=-1;
 
     template <typename Component_type>
     static int Get_component_type_id()

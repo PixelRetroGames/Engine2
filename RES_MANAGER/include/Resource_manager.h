@@ -9,6 +9,8 @@ namespace RES_MANAGER
 {
     class Base_resource_manager
     {
+     public:
+     virtual void Clear()=0;
     };
 
     template<typename Resource_type>

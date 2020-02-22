@@ -15,9 +15,7 @@ namespace ECS
 
      public:
      Entity_handle(Entity _entity,Engine *_engine) : entity(_entity),engine(_engine) {};
-     Entity_handle()
-     {
-     }
+     Entity_handle() {}
 
      void Clear()
      {
