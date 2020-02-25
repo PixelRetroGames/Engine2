@@ -30,6 +30,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-fpermissive" />
 			<Add directory="E:/Programming/Engine last/redist/SDL2/include" />
 		</Compiler>
 		<Linker>
@@ -87,7 +88,7 @@
 		<Unit filename="ENGINE/CORE/src/Timer.cpp" />
 		<Unit filename="ENGINE/CORE/src/Window.cpp" />
 		<Unit filename="ENGINE/CORE/src/Wrappers.cpp" />
-		<Unit filename="ENGINE/ENGINE.h" />
+		<Unit filename="ENGINE/Engine.h" />
 		<Unit filename="EV_BUS/EV_BUS.h" />
 		<Unit filename="EV_BUS/include/Event.h" />
 		<Unit filename="EV_BUS/include/Event_bus.h" />
@@ -108,7 +109,9 @@
 		<Unit filename="RES_MANAGER/include/Resource_manager.h" />
 		<Unit filename="RES_MANAGER/include/Resource_type_counter.h" />
 		<Unit filename="RES_MANAGER/src/Resource_type_counter.cpp" />
+		<Unit filename="SANDBOX/include/My_game.h" />
 		<Unit filename="SANDBOX/include/Test_state.h" />
+		<Unit filename="SANDBOX/src/My_game.cpp" />
 		<Unit filename="SANDBOX/src/Test_state.cpp" />
 		<Unit filename="UTIL/UTIL.h" />
 		<Unit filename="UTIL/include/Utility.h" />

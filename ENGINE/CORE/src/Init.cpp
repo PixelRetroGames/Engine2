@@ -16,6 +16,7 @@ namespace Engine
      LOG::Add_logger("EV BUS");
      LOG::Add_logger("RES MANAGER");
      LOG::Add_logger("Application");
+     LOG::Add_logger("Debug");
      Init_SDL();
      Init_TTF();
      Init_Mix();

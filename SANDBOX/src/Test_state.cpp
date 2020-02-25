@@ -52,23 +52,23 @@ namespace Sandbox
     {
      for(auto &entity:entities)
          {
-          if(application->Get_window()->Get_keystate(Engine::SCANCODE_SPACE))
+          if(application->Get_window()->Get_keystate(SCANCODE_SPACE))
              application->Get_application_state()->Get_event_bus()->Publish(new Reset_event(entity));
-          if(application->Get_window()->Get_keystate(Engine::SCANCODE_ESCAPE))
+          if(application->Get_window()->Get_keystate(SCANCODE_ESCAPE))
              {
               application->Quit();
               break;
              }
          }
-     if(application->Get_window()->Get_keystate(Engine::SCANCODE_BACKSPACE))
+     if(application->Get_window()->Get_keystate(SCANCODE_BACKSPACE))
         {
          application->Pop_state();
-         Engine::Delay(500);
+         Delay(500);
         }
-     if(application->Get_window()->Get_keystate(Engine::SCANCODE_RETURN))
+     if(application->Get_window()->Get_keystate(SCANCODE_RETURN))
         {
          application->Push_state(new Test_state2(application));
-         Engine::Delay(500);
+         Delay(500);
         }
     }
 
@@ -84,17 +84,17 @@ namespace Sandbox
      engine->Add_system(std::move(player_movement_system));
 
      background=engine->Add_entity();
-     background.Add_component(Image(resource_manager.Get<Engine::Texture>("res/img.png")));
+     background.Add_component(Image(resource_manager.Get<Texture>("res/img.png")));
      background.Add_component(Position(45,33));
 
      text = engine->Add_entity();
-     Engine::Color text_color(255,0,0,255);
-     text.Add_component(Image(Engine::RENDERER->Create_TTF_texture(resource_manager.Get<Engine::Font>("res/font.ttf"), "TEST", text_color)));
+     Color text_color(255,0,0,255);
+     text.Add_component(Image(RENDERER->Create_TTF_texture(resource_manager.Get<Font>("res/font.ttf"), "TEST", text_color)));
      text.Add_component(Position(125,40));
      text.Add_component(Movable());
 
      player=engine->Add_entity();
-     player.Add_component(Image(resource_manager.Get<Engine::Texture>("res/sq.png")));
+     player.Add_component(Image(resource_manager.Get<Texture>("res/sq.png")));
      player.Add_component(Position(0,0));
      player.Add_component(Movable());
      player.Add_component(Event_handler());
@@ -102,7 +102,7 @@ namespace Sandbox
      for(int i=0;i<4;i++)
          {
           enemies[i]=engine->Add_entity();
-          enemies[i].Add_component(Image(resource_manager.Get<Engine::Texture>("res/sq2.png")));
+          enemies[i].Add_component(Image(resource_manager.Get<Texture>("res/sq2.png")));
           enemies[i].Add_component(Position(i*40,i*50));
           enemies[i].Add_component(Movable());
          }
@@ -112,7 +112,7 @@ namespace Sandbox
 
     void Test_state::Clear()
     {
-     resource_manager.Clear<Engine::Texture>();
+     resource_manager.Clear<Texture>();
     }
 
     void Test_state::Pause()
@@ -134,9 +134,9 @@ namespace Sandbox
 
     void Test_state::Draw()
     {
-     Get_application()->Get_window()->Get_renderer()->Flush();
+     application->Get_window()->Get_renderer()->Flush();
      engine->Render();
-     Get_application()->Get_window()->Get_renderer()->Present();
+     application->Get_window()->Get_renderer()->Present();
     }
 
     ///******************************************************\
@@ -151,18 +151,18 @@ namespace Sandbox
      engine->Add_system(std::move(player_movement_system));
 
      background=engine->Add_entity();
-     background.Add_component(Image(resource_manager.Get<Engine::Texture>("res/img.png")));
+     background.Add_component(Image(resource_manager.Get<Texture>("res/img.png")));
      background.Add_component(Position(45,33));
 
      player=engine->Add_entity();
-     player.Add_component(Image(resource_manager.Get<Engine::Texture>("res/sq.png")));
+     player.Add_component(Image(resource_manager.Get<Texture>("res/sq.png")));
      player.Add_component(Position(0,0));
      player.Add_component(Movable());
 
      for(int i=0;i<4;i++)
          {
           enemies[i]=engine->Add_entity();
-          enemies[i].Add_component(Image(resource_manager.Get<Engine::Texture>("res/sq2.png")));
+          enemies[i].Add_component(Image(resource_manager.Get<Texture>("res/sq2.png")));
           enemies[i].Add_component(Position(i*40,i*50));
           enemies[i].Add_component(Movable());
           enemies[i].Add_component(Event_handler());
@@ -173,7 +173,7 @@ namespace Sandbox
 
     void Test_state2::Clear()
     {
-     resource_manager.Clear<Engine::Texture>();
+     resource_manager.Clear<Texture>();
     }
 
     void Test_state2::Pause()
@@ -195,8 +195,8 @@ namespace Sandbox
 
     void Test_state2::Draw()
     {
-     Get_application()->Get_window()->Get_renderer()->Flush();
+     application->Get_window()->Get_renderer()->Flush();
      engine->Render();
-     Get_application()->Get_window()->Get_renderer()->Present();
+     application->Get_window()->Get_renderer()->Present();
     }
 }

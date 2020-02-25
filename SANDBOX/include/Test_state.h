@@ -6,6 +6,8 @@
 
 namespace Sandbox
 {
+    using namespace Engine;
+
     class Test_state : public Engine::Application_state
     {
      private:
